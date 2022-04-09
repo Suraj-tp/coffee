@@ -1,0 +1,104 @@
+/* .header{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+
+}
+.logo{
+    width: 20%;
+    height: 80px;
+    background-color: blue;
+    margin-left: 15px;
+}
+.inner_header{
+    width: 50%;
+    height: 80px;
+    background-color:red;
+    position: absolute;
+    display: flex;
+    left: 300px;
+
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+}
+nav{
+    background-color:chocolate;
+    height: 80px;
+    width: 100%;
+
+}
+.logo{
+    color: white;
+    /* font-size: 25px; */
+    /* line-height: 80px; */
+    /* padding: 220px; */
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -72px;
+    font-family: 'Dancing Script', cursive;
+
+}
+ul{
+    float: right;
+    margin-right: 20px;
+
+}
+li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 5px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.hover:hover{
+    background-color:black;
+    
+}
+.tagline{
+    width: 252px;
+    height: 35px;
+    /* background-color: red; */
+    margin-top: 0px;
+    margin-left: 24px;
+    background-color: chocolate;
+    color: white;
+    font-size: 10px;
+    
+}
+.tagline:hover{
+    background-color:black;
+    
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Orbitron', sans-serif;
+        /* background-color: red; */
+
+}
+img{
+    width: 200px;
+    height: 165px;
+    margin-top: -81px;
+    margin-left: 500px;
+    /* background-color: red; */
+    
+}

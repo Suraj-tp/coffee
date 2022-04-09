@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.back{
+    background-image: url(./images/tagline.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+}
+    
+.logo{
+    width: 250px;
+    height: 200px;
+    /* margin-left: 5px;
+    margin-top: 5px; */
+    padding: 5px;
+}
+nav{
+    /* background-color: chocolate; */
+    width:100%;
+    height: 100px;
+    /* background-image: url(./images/tagline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+ul{
+    float: right;
+    margin-top: -160px;
+    margin-right: 100px;
+}
+li{
+    display: inline;
+    padding: 10px;
+    margin-right: 5px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    text-shadow: 1px 2px 2px red;
+
+}
+.hover:hover{
+    background-color: black;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    display: inline;
+    float: right;
+    margin-top: -170px;
+    margin-right: 10px;
+}
+.tagline{
+    width: 344px;
+    height: 36px;
+    /* background-color: red; */
+    margin-top:7px;
+    margin-left: 324px;
+    /* background-color: chocolate; */
+    color: white;
+    font-size: 10px;
+    text-shadow: 1px 2px 2px red;   
+}
+.tgl{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Orbitron', sans-serif;
+        /* background-color: red; */
+
+}
+.stp{
+    width: 300px;
+    height: 55px;
+    color: white;
+    /* background-color:chocolate; */
+    margin-left: 340px;
+    margin-top: -203px;
+    font-family: 'Dancing Script', cursive;
+    font-size:45px;
+    /* background-color: red; */
+    text-align: center;
+    text-shadow: 1px 2px 2px red;
+
+}
+.navb{
+    width: 100%;
+    height: 700px;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* background-color: aqua; */
+    /* background-color:chocolate; */
+
+}
+.quote{
+        width: 50%;
+        height: 95px;
+        margin-top: 0px;
+        margin-left: 611px;
+        /* background-color: aqua;  */
+        text-align: center;
+        padding-top: 25px;
+        text-shadow: 1px 2px 2px red;
+        font-style: italic;
+        font-weight: bold;
+        font-weight: 30px;
+    
+
+    }
+
+.vido{
+    /* width: 430px;
+    height: 284px;
+    margin-top: 0px;
+    margin-left: 30px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.desp{
+    width: 709px;
+    height: 364px;
+    margin-top: -364px;
+    margin-left: 0px;
+    float: right;
+    background-color: gray;
+}
+.coffee{
+        width: 919px;
+        height: 263px;
+        margin-top: -267px;
+        margin-left: 430px;
+        /* background-color: aqua; */
+        font-size:30px;
+        font-weight:bold;
+        font-style: italic;
+        text-align: center;
+        padding: 50px;
+}
+.tyc{    
+    width: 100%;
+    height: 80px;
+    background-color:chocolate;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px red;
+    font-family: 'Orbitron', sans-serif;
+}
+.parent{
+    width: 100%;
+    height: 700px;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* background-color: gray; */
+    border: 2x red solid;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(./images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#it1{
+    width: 250px;
+    height: 600px;
+    /* background-color: violet; */
+    border: 5x black solid;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+.item1{
+    width: 210px;
+    height: 335px;
+    margin-top: 5px;
+    margin-left: 14px;
+    padding: 5px;
+    
+}
+.item1:hover{
+    background-color: red;
+}
+p:hover{
+    background-color: chocolate;
+}
+.box2{
+    /* background-color: chocolate; */
+    background-image: url(./images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent1{
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* background-color: gray; */
+    border: 2x red solid;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.it1{
+    width: 23%;
+    height: 350px;
+    /* background-color: violet; */
+    border: 2x black solid;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+img{
+    width: 297px;
+    height: 335px;
+    margin-top: -2px;
+    margin-left: 0px;
+    padding: 5px;
+    
+}
+img:hover{
+    background-color: red;
+    
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 2px red solid;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: chocolate;
+
+
+}
+.f1{
+    width: 23%;
+    height: 290px;
+    /* background-color: wheat; */
+    /* border: 2px blue solid; */
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.lft{
+    font-size: 19px;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* background-color: red; */
+    
+}
+.i{
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+.i:hover{
+    background-color: wheat;
+    border-radius: 10px;
+}
+a:hover{
+    background-color:black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.vdo{
+    width: 100%;
+    height: 370px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    background-image:url(./images/vdoper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vid{
+    width: 31%;
+    height: 295px;
+    /* background-color: gray; */
+    /* border: 2px red solid; */
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#vid{
+    width: 422px;
+    height: 300px;
+}
+span:hover{
+    background-color: wheat;
+    
+}
+.vdoul{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 5px;
+    }
+
